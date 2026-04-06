@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roof Cleaning | HydroRush Mobile Pressure & Exterior Cleaning</title>
+    <meta name="keywords" content="roof cleaning, moss removal, tile cleaning, gutter cleaning">
+    <meta name="description" content="Professional roof cleaning services. Remove moss, algae, lichen with safe low-pressure biological treatments.">
+
+    <link rel="icon" href="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="image/logo.png" alt="HydroRush logo">
+                </a>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home1</a></li>
+                <li><a href="home2.html">Home2</a></li>
+                <li><a href="about.html">About</a></li>
+
+                <li class="dropdown">
+                    <a href="#" class="active">Services &#9662;</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="pressure washing.html">Pressure Washing</a></li>
+                        <li><a href="exterior cleaning.html">Exterior Cleaning</a></li>
+                        <li><a href="roof cleaning.html" class="active">Roof Cleaning</a></li>
+                        <li><a href="driveway cleaning.html">Driveway Cleaning</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <div class="nav-tools">
+                    <button type="button" class="nav-tool-btn" id="themeToggle" aria-label="Toggle theme">
+                        <i class="fa-solid fa-moon"></i>
+                    </button>
+                    <button type="button" class="nav-tool-btn nav-dir-btn" id="dirToggle" aria-label="Switch text direction">
+                        <span class="dir-label">LTR</span>
+                    </button>
+                </div>
+                <a href="login.html" class="btn secondary">Login</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="pricing-banner roof-banner">
+        <img src="image/b4.jpg" alt="HydroRush roof cleaning services banner">
+        <div class="pricing-banner-overlay"></div>
+        <div class="pricing-banner-content">
+            <span class="banner-kicker">Roof Cleaning Services</span>
+            <h1>Professional Roof Restoration</h1>
+            <p>Safe, effective cleaning to remove moss, algae, and protect your roof investment</p>
+        </div>
+    </section>
+
+    <!-- SECTION 2: SERVICES SHOWCASE (4 Roof Sub-Services) -->
+    <section class="services-showcase" id="services">
+        <div class="services-header reveal">
+            <div class="section-kicker"><i class="fa-solid fa-spray-can-sparkles"></i> Roof Cleaning Services</div>
+            <h2>Specialist Roof Cleaning<br>for Every Roof Type</h2>
+            <p>Low-pressure biological cleaning safe for tiles, slate, flat roofs and more. Tailored treatments that renew your roof.</p>
+        </div>
+
+        <div class="service-tabs reveal">
+            <div class="service-tabs-inner">
+                <button class="tab active" data-tab="all">All Roof Services</button>
+                <button class="tab" data-tab="tile">Tile Roofs</button>
+                <button class="tab" data-tab="slate">Slate Roofs</button>
+                <button class="tab" data-tab="flat">Flat Roofs</button>
+            </div>
+        </div>
+
+        <div class="services-grid">
+            <!-- Roof Tile Cleaning -->
+            <div class="svc-card reveal" data-cat="tile" style="transition-delay:.05s">
+                <div class="svc-thumb">
+                    <img src="image/ri.jpg" alt="Roof tile moss removal"/>
+                    <span class="svc-badge">Most Popular</span>
+                </div>
+                <div class="svc-body">
+                    <h3>Tile Roof Cleaning</h3>
+                    <p>Removes moss, algae and lichen growth from concrete, clay and terracotta tiles using safe DOFF-style low pressure.</p>
+                    <div class="svc-footer">
+                        <a href="#" class="svc-link">Book Tile Clean <i class="fa-solid fa-arrow-right"></i></a>
+                        <div class="svc-icon"><i class="fa-solid fa-house-chimney"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slate Roof Cleaning -->
+            <div class="svc-card reveal" data-cat="slate" style="transition-delay:.1s">
+                <div class="svc-thumb">
+                    <img src="image/r2.jpg" alt="Natural slate roof cleaning"/>
+                </div>
+                <div class="svc-body">
+                    <h3>Natural Slate Cleaning</h3>
+                    <p>Gentle biological treatment clears black streaks and organic growth from natural slate without damaging the surface.</p>
+                    <div class="svc-footer">
+                        <a href="#" class="svc-link">Book Slate Clean <i class="fa-solid fa-arrow-right"></i></a>
+                        <div class="svc-icon"><i class="fa-solid fa-gem"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Flat Roof Cleaning -->
+            <div class="svc-card reveal" data-cat="flat" style="transition-delay:.15s">
+                <div class="svc-thumb">
+                    <img src="image/s2.jpg" alt="Flat roof moss removal"/>
+                    <span class="svc-badge">New</span>
+                </div>
+                <div class="svc-body">
+                    <h3>Flat Roof Cleaning</h3>
+                    <p>Specialist cleaning for felt, GRP and single-ply flat roofs. Removes moss roots and ponding debris safely.</p>
+                    <div class="svc-footer">
+                        <a href="#" class="svc-link">Book Flat Roof <i class="fa-solid fa-arrow-right"></i></a>
+                        <div class="svc-icon"><i class="fa-solid fa-layer-group"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gutter Cleaning -->
+            <div class="svc-card reveal" data-cat="flat" style="transition-delay:.2s">
+                <div class="svc-thumb">
+                    <img src="image/b4.jpg" alt="Gutter clearing service"/>
+                </div>
+                <div class="svc-body">
+                    <h3>Gutter Clear &amp; Flush</h3>
+                    <p>Vacuum extraction and high-pressure flush removes leaves, moss debris and blockages from all gutter systems.</p>
+                    <div class="svc-footer">
+                        <a href="#" class="svc-link">Book Gutter Clean <i class="fa-solid fa-arrow-right"></i></a>
+                        <div class="svc-icon"><i class="fa-solid fa-filter"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3: GALLERY (Roof Transformations) -->
+    <section class="gallery-section" id="gallery">
+        <div class="gallery-controls">
+            <div>
+                <div class="section-kicker reveal"><i class="fa-solid fa-images"></i> Roof Transformations</div>
+                <div class="section-heading" style="text-align:left;margin:0">
+                    <h2 class="reveal" style="font-size:clamp(1.8rem,3.5vw,2.8rem)">Roof Cleaning <span>Results</span></h2>
+                </div>
+            </div>
+            <div>
+                <div class="gallery-tabs-wrap reveal">
+                    <button class="g-tab active" data-g="all">All Roofs</button>
+                    <button class="g-tab" data-g="tile">Tile</button>
+                    <button class="g-tab" data-g="slate">Slate</button>
+                    <button class="g-tab" data-g="flat">Flat Roofs</button>
+                </div>
+                <p class="gallery-count" style="margin-top:10px;text-align:right">Showing <span id="gCount">4</span> projects</p>
+            </div>
+        </div>
+
+        <div class="gallery-mosaic">
+            <div class="g-tile" data-g="tile"
+                 data-title="Terracotta Tile Roof — Kent"
+                 data-desc="Heavy moss and algae removed from 25-year-old tiles. Full gutter clear included."
+                 data-img="image/ri.jpg">
+                <img src="image/ri.jpg" alt="Terracotta roof moss removal"/>
+                <div class="g-overlay">
+                    <span class="g-overlay-tag">Tile Roof</span>
+                    <h4>Terracotta Tile Roof — Kent</h4>
+                    <p>Moss &amp; algae removal</p>
+                </div>
+            </div>
+
+            <div class="g-tile" data-g="slate"
+                 data-title="Natural Slate — Surrey Hills"
+                 data-desc="Black streaks and lichen cleared from Welsh slate. Ridge tiles recoated."
+                 data-img="image/r2.jpg">
+                <img src="image/r2.jpg" alt="Slate roof cleaning"/>
+                <div class="g-overlay">
+                    <span class="g-overlay-tag">Slate Roof</span>
+                    <h4>Natural Slate — Surrey Hills</h4>
+                    <p>Lichen &amp; streak removal</p>
+                </div>
+            </div>
+
+            <div class="g-tile" data-g="flat"
+                 data-title="GRP Flat Roof — Essex"
+                 data-desc="Moss roots and debris cleared from commercial GRP roof. Drainage improved 40%."
+                 data-img="image/s2.jpg">
+                <img src="image/s2.jpg" alt="Flat roof moss removal"/>
+                <div class="g-overlay">
+                    <span class="g-overlay-tag">Flat Roof</span>
+                    <h4>GRP Flat Roof — Essex</h4>
+                    <p>Root removal &amp; debris clear</p>
+                </div>
+            </div>
+
+            <div class="g-tile" data-g="tile"
+                 data-title="Concrete Tile Bungalow — Sussex"
+                 data-desc="Complete biological clean restored tiles to near-new condition. 5yr guarantee."
+                 data-img="image/b4.jpg">
+                <img src="image/b4.jpg" alt="Concrete tile roof transformation"/>
+                <div class="g-overlay">
+                    <span class="g-overlay-tag">Tile Roof</span>
+                    <h4>Concrete Tile Bungalow — Sussex</h4>
+                    <p>Biological deep clean</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lightbox (reuses JS) -->
+        <div class="lightbox" id="lightbox">
+            <button class="lb-close" id="lbClose"><i class="fa-solid fa-xmark"></i></button>
+            <div class="lb-inner">
+                <div class="lb-img"><img id="lbImg" src="" alt=""/></div>
+                <div class="lb-body">
+                    <h3 id="lbTitle"></h3>
+                    <p id="lbDesc"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 4: PROCESS STEPS (Roof-Specific) -->
+    <section class="pw-process-section" id="process">
+        <div class="process-deco">
+            <div class="process-deco-ring"></div>
+            <div class="process-deco-ring"></div>
+            <div class="process-deco-ring"></div>
+        </div>
+        <div class="pw-process-inner">
+            <div class="pw-process-header reveal">
+                <div class="section-kicker"><i class="fa-solid fa-list-check"></i> Roof Cleaning Process</div>
+                <h2>Roof Clean in <em>4 Simple Steps</em></h2>
+                <p>Safe, low-pressure biological process that kills moss at the root. No damage, long-lasting protection.</p>
+            </div>
+
+            <div class="pw-steps-grid">
+                <div class="pw-step reveal" style="transition-delay:.05s">
+                    <div class="pw-step-img">
+                        <img src="image/s1.jpg" alt="Roof survey and assessment"/>
+                    </div>
+                    <div class="pw-step-body">
+                        <span class="pw-step-number">STEP 01</span>
+                        <div class="pw-step-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                        <h3>Roof Survey</h3>
+                        <p>Free drone inspection assesses growth type, coverage and roof condition. Custom quote prepared.</p>
+                    </div>
+                </div>
+
+                <div class="pw-step reveal" style="transition-delay:.15s">
+                    <div class="pw-step-img">
+                        <img src="image/s2.jpg" alt="Roof preparation and protection"/>
+                    </div>
+                    <div class="pw-step-body">
+                        <span class="pw-step-number">STEP 02</span>
+                        <div class="pw-step-icon"><i class="fa-solid fa-hard-hat"></i></div>
+                        <h3>Safe Prep</h3>
+                        <p>Protect plants, gutters and surfaces. Access equipment positioned for full roof coverage.</p>
+                    </div>
+                </div>
+
+                <div class="pw-step reveal" style="transition-delay:.25s">
+                    <div class="pw-step-img">
+                        <img src="image/ri.jpg" alt="Biological roof cleaning application"/>
+                    </div>
+                    <div class="pw-step-body">
+                        <span class="pw-step-number">STEP 03</span>
+                        <div class="pw-step-icon"><i class="fa-solid fa-spray-can-sparkles"></i></div>
+                        <h3>Biological Clean</h3>
+                        <p>Apply specialist biocide that kills moss roots. Low-pressure rinse removes debris safely.</p>
+                    </div>
+                </div>
+
+                <div class="pw-step reveal" style="transition-delay:.35s">
+                    <div class="pw-step-img">
+                        <img src="image/b4.jpg" alt="Roof inspection and protection"/>
+                    </div>
+                    <div class="pw-step-body">
+                        <span class="pw-step-number">STEP 04</span>
+                        <div class="pw-step-icon"><i class="fa-solid fa-circle-check"></i></div>
+                        <h3>Final Protect</h3>
+                        <p>Apply preventative coating. Full inspection ensures perfect results before we leave.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="cta-section">
+        <div class="cta-container">
+            <div class="cta-text">
+                <h2>Ready for a New Roof?</h2>
+                <p>Book your professional roof clean today. Safe, effective, guaranteed results.</p>
+                <div class="cta-features">
+                    <div class="cta-item"><img src="image/check.png" alt=""><span>5 Year Guarantee</span></div>
+                    <div class="cta-item"><img src="image/clock.png" alt=""><span>24hr Response</span></div>
+                    <div class="cta-item"><img src="image/shield.png" alt=""><span>100% Safe Process</span></div>
+                </div>
+                <div class="cta-buttons">
+                    <a href="#" class="cta-btn primary">Book Roof Clean</a>
+                    <a href="#" class="cta-btn secondary">Free Survey</a>
+                </div>
+            </div>
+            <div class="cta-image">
+                <img src="image/s3.jpg" alt="Clean roof transformation">
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER (Shared) -->
+    <footer class="site-footer">
+        <div class="footer-shell">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <img src="image/logo.png" alt="HydroRush logo">
+                    </a>
+                    <p>HydroRush: Premium roof cleaning with safe biological treatments and 5-year moss protection guarantee.</p>
+                    <div class="footer-socials">
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Roof Services</h3>
+                    <ul>
+                        <li><a href="#services">Tile Cleaning</a></li>
+                        <li><a href="#services">Slate Roofs</a></li>
+                        <li><a href="#services">Flat Roofs</a></li>
+                        <li><a href="#services">Gutters</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="pressure washing.html">Pressure Washing</a></li>
+                        <li><a href="exterior cleaning.html">Exterior Cleaning</a></li>
+                        <li><a href="#footerContact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column footer-contact" id="footerContact">
+                    <h3>Get In Touch</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-phone"></i><span>844 242 9464</span></li>
+                        <li><i class="fa-regular fa-envelope"></i><span>contact@hydrorush.com</span></li>
+                        <li><i class="fa-solid fa-location-dot"></i><span>2590 Walnut St, Denver, CO 80205</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 HydroRush. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button type="button" class="scroll-top-btn" id="scrollTopBtn" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="jss/main.js"></script>
+</body>
+</html>
+

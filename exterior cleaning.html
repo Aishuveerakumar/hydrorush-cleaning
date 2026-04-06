@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exterior Cleaning | HydroRush</title>
+    <meta name="keywords" content="exterior cleaning, house washing, siding cleaning, window cleaning, deck cleaning, fence cleaning">
+    <meta name="description" content="Professional exterior cleaning services for homes and businesses. House washing, siding, windows, decks, fences, and commercial exteriors.">
+
+    <link rel="icon" href="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="image/logo.png" alt="HydroRush logo">
+                </a>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home1</a></li>
+                <li><a href="home2.html">Home2</a></li>
+                <li><a href="about.html">About</a></li>
+
+                <li class="dropdown">
+                    <a href="#" class="active">Services &#9662;</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="pressure washing.html" class="active">Pressure Washing</a></li>
+                        <li><a href="exterior cleaning.html">Exterior Cleaning</a></li>
+                        <li><a href="roof cleaning.html">Roof Cleaning</a></li>
+                        <li><a href="driveway cleaning.html">Driveway Cleaning</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <div class="nav-tools">
+                    <button type="button" class="nav-tool-btn" id="themeToggle" aria-label="Toggle theme">
+                        <i class="fa-solid fa-moon"></i>
+                    </button>
+                    <button type="button" class="nav-tool-btn nav-dir-btn" id="dirToggle" aria-label="Switch text direction">
+                        <span class="dir-label">LTR</span>
+                    </button>
+                </div>
+                <a href="login.html" class="btn secondary">Login</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="pricing-banner">
+        <img src="image/a7.jpg" alt="HydroRush exterior cleaning services banner">
+        <div class="pricing-banner-overlay"></div>
+        <div class="pricing-banner-content">
+            <span class="banner-kicker">Exterior Cleaning Services</span>
+            <h1>Complete Exterior Restoration</h1>
+            <p>Professional cleaning for siding, windows, decks, and all exterior surfaces</p>
+        </div>
+    </section>
+
+
+<!-- ══════════════════════════════════════
+     SECTION 2 — SERVICES
+══════════════════════════════════════ -->
+<section class="services-showcase" id="services">
+  <div class="services-header reveal">
+    <div class="section-kicker"><i class="fa-solid fa-spray-can-sparkles"></i> What We Offer</div>
+    <h2>Complete Exterior<br>Cleaning Solutions</h2>
+    <p>From rooftops to driveways, we handle every surface with specialist-grade equipment and zero-harm cleaning agents.</p>
+  </div>
+
+  <div class="service-tabs reveal">
+    <div class="service-tabs-inner">
+      <button class="tab active" data-tab="all">All Services</button>
+      <button class="tab" data-tab="wash">Pressure Wash</button>
+      <button class="tab" data-tab="roof">Roof &amp; Gutter</button>
+      <button class="tab" data-tab="drive">Driveway</button>
+    </div>
+  </div>
+
+  <div class="services-grid">
+
+    <div class="svc-card reveal" data-cat="wash" style="transition-delay:.05s">
+      <div class="svc-thumb">
+        <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=600&auto=format&fit=crop&q=80" alt="House exterior wash"/>
+        <span class="svc-badge">Popular</span>
+      </div>
+      <div class="svc-body">
+        <h3>House Exterior Wash</h3>
+        <p>Full soft-wash treatment for all exterior walls, siding, and surfaces. Removes algae, dirt, and oxidation buildup safely.</p>
+        <div class="svc-footer">
+          <a href="#" class="svc-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+          <div class="svc-icon"><i class="fa-solid fa-house"></i></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="svc-card reveal" data-cat="roof" style="transition-delay:.1s">
+      <div class="svc-thumb">
+        <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&auto=format&fit=crop&q=80" alt="Roof and tile cleaning"/>
+        <span class="svc-badge">Top Rated</span>
+      </div>
+      <div class="svc-body">
+        <h3>Roof &amp; Tile Cleaning</h3>
+        <p>Low-pressure biological treatment that eliminates moss, lichen and black streaks without damaging your tiles or slate.</p>
+        <div class="svc-footer">
+          <a href="#" class="svc-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+          <div class="svc-icon"><i class="fa-solid fa-house-chimney"></i></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="svc-card reveal" data-cat="drive" style="transition-delay:.15s">
+      <div class="svc-thumb">
+        <img src="image\h6.jpg" alt="Driveway and patio cleaning"/>
+      </div>
+      <div class="svc-body">
+        <h3>Driveway &amp; Patio</h3>
+        <p>High-pressure surface restoration for block paving, concrete, tarmac and natural stone. Sealing &amp; re-sanding available.</p>
+        <div class="svc-footer">
+          <a href="#" class="svc-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+          <div class="svc-icon"><i class="fa-solid fa-car"></i></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="svc-card reveal" data-cat="roof" style="transition-delay:.2s">
+      <div class="svc-thumb">
+        <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&auto=format&fit=crop&q=80" alt="Gutter cleaning"/>
+        <span class="svc-badge">New</span>
+      </div>
+      <div class="svc-body">
+        <h3>Gutter Cleaning &amp; Flush</h3>
+        <p>Complete gutter vacuuming, flush-through and minor repair. Prevents water damage and costly structural issues.</p>
+        <div class="svc-footer">
+          <a href="#" class="svc-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+          <div class="svc-icon"><i class="fa-solid fa-droplet"></i></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="svc-card reveal" data-cat="wash" style="transition-delay:.25s">
+      <div class="svc-thumb">
+        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop&q=80" alt="Fence and decking wash"/>
+      </div>
+      <div class="svc-body">
+        <h3>Fence &amp; Decking Wash</h3>
+        <p>Restoration clean for all timber, composite and vinyl fencing. Prepare surfaces for treatment or staining afterwards.</p>
+        <div class="svc-footer">
+          <a href="#" class="svc-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+          <div class="svc-icon"><i class="fa-solid fa-tree"></i></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="svc-card reveal" data-cat="drive" style="transition-delay:.3s">
+      <div class="svc-thumb">
+        <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=600&auto=format&fit=crop&q=80" alt="Commercial exterior cleaning"/>
+      </div>
+      <div class="svc-body">
+        <h3>Commercial Exterior</h3>
+        <p>Large-scale facade, car park and signage cleaning for commercial premises, retail parks, and industrial estates.</p>
+        <div class="svc-footer">
+          <a href="#" class="svc-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+          <div class="svc-icon"><i class="fa-solid fa-building-columns"></i></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     SECTION 3 — GALLERY
+══════════════════════════════════════ -->
+<section class="gallery-section" id="gallery">
+  <div class="gallery-controls">
+    <div>
+      <div class="section-kicker reveal"><i class="fa-solid fa-images"></i> Our Work</div>
+      <div class="section-heading" style="text-align:left;margin:0">
+        <h2 class="reveal" style="font-size:clamp(1.8rem,3.5vw,2.8rem)">Results That <span>Speak</span> for Themselves</h2>
+      </div>
+    </div>
+    <div>
+      <div class="gallery-tabs-wrap reveal">
+        <button class="g-tab active" data-g="all">All</button>
+        <button class="g-tab" data-g="house">House Wash</button>
+        <button class="g-tab" data-g="roof">Roof</button>
+        <button class="g-tab" data-g="drive">Driveway</button>
+        <button class="g-tab" data-g="fence">Fence</button>
+      </div>
+      <p class="gallery-count" style="margin-top:10px;text-align:right">Showing <span id="gCount">5</span> projects</p>
+    </div>
+  </div>
+
+  <div class="gallery-mosaic">
+
+    <div class="g-tile" data-g="house"
+         data-title="Victorian Terrace — South London"
+         data-desc="Complete soft-wash house exterior restore. Algae and moss removed from brick facade and rendered walls."
+         data-img="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=900&auto=format&fit=crop&q=80">
+      <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=900&auto=format&fit=crop&q=80" alt="Victorian terrace house wash"/>
+      <div class="g-overlay">
+        <span class="g-overlay-tag">Before &amp; After</span>
+        <h4>Victorian Terrace — South London</h4>
+        <p>Complete soft-wash restore</p>
+      </div>
+    </div>
+
+    <div class="g-tile" data-g="roof"
+         data-title="Slate Roof — Surrey"
+         data-desc="Low-pressure biological treatment cleared 12 years of moss and lichen growth. Roof looks brand new."
+         data-img="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=900&auto=format&fit=crop&q=80">
+      <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=700&auto=format&fit=crop&q=80" alt="Roof cleaning Surrey"/>
+      <div class="g-overlay">
+        <span class="g-overlay-tag">Roof</span>
+        <h4>Slate Roof — Surrey</h4>
+        <p>Biological moss treatment</p>
+      </div>
+    </div>
+
+    <div class="g-tile" data-g="drive"
+         data-title="Block Paving — Essex"
+         data-desc="Surface-cleaned, re-sanded and sealed. Restored original colour and prevented weed regrowth."
+         data-img="https://images.unsplash.com/photo-1597000558600-c55dd0bff7ce?w=900&auto=format&fit=crop&q=80">
+      <img src="https://images.unsplash.com/photo-1597000558600-c55dd0bff7ce?w=700&auto=format&fit=crop&q=80" alt="Block paving clean Essex"/>
+      <div class="g-overlay">
+        <span class="g-overlay-tag">Driveway</span>
+        <h4>Block Paving — Essex</h4>
+        <p>Cleaned, sealed &amp; re-sanded</p>
+      </div>
+    </div>
+
+    <div class="g-tile" data-g="fence"
+         data-title="Garden Decking — Kent"
+         data-desc="Timber decking stripped, cleaned and prepared for re-staining. Stunning transformation."
+         data-img="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=900&auto=format&fit=crop&q=80">
+      <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=700&auto=format&fit=crop&q=80" alt="Garden decking wash Kent"/>
+      <div class="g-overlay">
+        <span class="g-overlay-tag">Fence</span>
+        <h4>Garden Decking — Kent</h4>
+        <p>Strip, clean &amp; prepare</p>
+      </div>
+    </div>
+
+    <div class="g-tile" data-g="house"
+         data-title="Render Facade — Birmingham"
+         data-desc="White render cleaned of heavy black streaking and biological growth. Brilliant result in just 2 hours."
+         data-img="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=900&auto=format&fit=crop&q=80">
+      <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=700&auto=format&fit=crop&q=80" alt="Render facade Birmingham"/>
+      <div class="g-overlay">
+        <span class="g-overlay-tag">House Wash</span>
+        <h4>Render Facade — Birmingham</h4>
+        <p>Biological streak removal</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <button class="lb-close" id="lbClose"><i class="fa-solid fa-xmark"></i></button>
+    <div class="lb-inner">
+      <div class="lb-img"><img id="lbImg" src="" alt=""/></div>
+      <div class="lb-body">
+        <h3 id="lbTitle"></h3>
+        <p id="lbDesc"></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     SECTION 4 — HOW IT WORKS
+══════════════════════════════════════ -->
+<section class="pw-process-section" id="process">
+  <div class="process-deco">
+    <div class="process-deco-ring"></div>
+    <div class="process-deco-ring"></div>
+    <div class="process-deco-ring"></div>
+  </div>
+  <div class="pw-process-inner">
+    <div class="pw-process-header reveal">
+      <div class="section-kicker"><i class="fa-solid fa-list-check"></i> Our Simple Process</div>
+      <h2>Clean in <em>4 Easy Steps</em></h2>
+      <p>From your first enquiry to a spotless finish — our streamlined process makes booking and delivery effortless every single time.</p>
+    </div>
+
+    <div class="pw-steps-grid">
+
+      <div class="pw-step reveal" style="transition-delay:.05s">
+        <div class="pw-step-img">
+          <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=500&auto=format&fit=crop&q=80" alt="Get a free quote"/>
+        </div>
+        <div class="pw-step-body">
+          <span class="pw-step-number">STEP 01</span>
+          <div class="pw-step-icon"><i class="fa-solid fa-clipboard-list"></i></div>
+          <h3>Get a Free Quote</h3>
+          <p>Tell us about your property online or by phone. Transparent, no-obligation quote within the hour.</p>
+        </div>
+      </div>
+
+      <div class="pw-step reveal" style="transition-delay:.15s">
+        <div class="pw-step-img">
+          <img src="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=500&auto=format&fit=crop&q=80" alt="Schedule your visit"/>
+        </div>
+        <div class="pw-step-body">
+          <span class="pw-step-number">STEP 02</span>
+          <div class="pw-step-icon"><i class="fa-solid fa-calendar-days"></i></div>
+          <h3>Schedule Your Visit</h3>
+          <p>Pick a day that works for you — early morning, daytime or weekend slots available same day.</p>
+        </div>
+      </div>
+
+      <div class="pw-step reveal" style="transition-delay:.25s">
+        <div class="pw-step-img">
+          <img src="https://images.unsplash.com/photo-1581244277943-fe4a9c777189?w=500&auto=format&fit=crop&q=80" alt="Expert clean carried out"/>
+        </div>
+        <div class="pw-step-body">
+          <span class="pw-step-number">STEP 03</span>
+          <div class="pw-step-icon"><i class="fa-solid fa-spray-can-sparkles"></i></div>
+          <h3>Expert Clean Carried Out</h3>
+          <p>Uniformed technicians arrive on time and leave your property spotless using pro-grade equipment.</p>
+        </div>
+      </div>
+
+      <div class="pw-step reveal" style="transition-delay:.35s">
+        <div class="pw-step-img">
+          <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=500&auto=format&fit=crop&q=80" alt="Inspect and guarantee"/>
+        </div>
+        <div class="pw-step-body">
+          <span class="pw-step-number">STEP 04</span>
+          <div class="pw-step-icon"><i class="fa-solid fa-circle-check"></i></div>
+          <h3>Inspect &amp; Guarantee</h3>
+          <p>We walk you through results ensuring 100% satisfaction. If needed, we come back free of charge.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="cta-container">
+
+    <!-- LEFT CONTENT -->
+    <div class="cta-text">
+      <h2>Ready to Transform Your Property?</h2>
+      <p>
+        Book your professional cleaning service today and give your home a fresh,
+        spotless look with eco-safe solutions.
+      </p>
+
+      <div class="cta-features">
+        <div class="cta-item">
+          <img src="image/check.png" alt="">
+          <span>Eco-Friendly Cleaning</span>
+        </div>
+
+        <div class="cta-item">
+          <img src="image/clock.png" alt="">
+          <span>Quick & Reliable Service</span>
+        </div>
+
+        <div class="cta-item">
+          <img src="image/shield.png" alt="">
+          <span>100% Satisfaction Guarantee</span>
+        </div>
+      </div>
+
+      <div class="cta-buttons">
+        <a href="#" class="cta-btn primary">Book Now</a>
+        <a href="#" class="cta-btn secondary">Get Free Quote</a>
+      </div>
+    </div>
+
+    <!-- RIGHT IMAGE -->
+    <div class="cta-image">
+      <img src="image/cta-cleaning.jpg" alt="">
+    </div>
+
+  </div>
+</section>
+
+    <footer class="site-footer">
+        <div class="footer-shell">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <img src="image/logo.png" alt="HydroRush logo">
+                    </a>
+
+                    <p>
+                        HydroRush delivers premium pressure washing and exterior cleaning with
+                        dependable service, brighter finishes, and a smooth customer experience.
+                    </p>
+
+                    <div class="footer-socials">
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="pressure washing.html">Pressure Washing</a></li>
+                        <li><a href="#">Driveway Cleaning</a></li>
+                        <li><a href="#">Roof Cleaning</a></li>
+                        <li><a href="#">Patio Restoration</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Info</h3>
+                    <ul>
+                        <li><a href="#footerContact">Contact</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="index.html#gallery">Gallery</a></li>
+                        <li><a href="index.html#pricing">Pricing</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column footer-contact" id="footerContact">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-phone"></i><span>844 242 9464</span></li>
+                        <li><i class="fa-regular fa-envelope"></i><span>contact@hydrorush.com</span></li>
+                        <li><i class="fa-solid fa-location-dot"></i><span>2590 Walnut St, Denver, CO 80205</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                 <p>&copy; 2026 HydroRush. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookies Settings</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script src="jss/main.js"></script>
+</body>
+</html>

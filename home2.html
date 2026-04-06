@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HydroRush Mobile Pressure Washing & Exterior Cleaning</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <link rel="icon" href="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="image/logo.png" alt="HydroRush logo">
+                </a>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home1</a></li>
+                <li><a href="home2.html" class="active">Home2</a></li>
+                <li><a href="about.html">About</a></li>
+
+                <li class="dropdown">
+                    <a href="#">Services &#9662;</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="pressure washing.html">Pressure Washing</a></li>
+                        <li><a href="exterior cleaning.html">Exterior Cleaning</a></li>
+                        <li><a href="roof cleaning.html">Roof Cleaning</a></li>
+                        <li><a href="driveway cleaning.html">Driveway Cleaning</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <div class="nav-tools">
+                    <button type="button" class="nav-tool-btn" id="themeToggle" aria-label="Toggle theme">
+                        <i class="fa-solid fa-moon"></i>
+                    </button>
+                    <button type="button" class="nav-tool-btn nav-dir-btn" id="dirToggle" aria-label="Switch text direction">
+                        <span class="dir-label">LTR</span>
+                    </button>
+                </div>
+                <a href="login.html" class="btn secondary">Login</a>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="hero-video">
+            <video autoplay muted loop playsinline class="bg-video" id="heroVideo">
+                <source src="image/853923-hd_1920_1080_25fps.mp4" type="video/mp4">
+            </video>
+
+            <div class="hero-video-overlay"></div>
+
+            <div class="hero-video-content">
+                <span class="top-text">MOBILE PRESSURE WASHING</span>
+                <h1>Clean. Protect. Transform.</h1>
+
+                <p>
+                    Professional exterior cleaning services for homes and businesses.
+                    Fast response, eco-friendly methods, and results that instantly sharpen curb appeal.
+                </p>
+
+                <div class="hero-video-actions">
+                    <a href="#" class="btn hero-video-btn">Get Quote</a>
+                    <a href="#" class="hero-video-link">Our Services</a>
+                </div>
+
+                <div class="hero-video-points">
+                    <span><i class="fa-solid fa-circle-check"></i> Fast Scheduling</span>
+                    <span><i class="fa-solid fa-circle-check"></i> Eco-Friendly Wash</span>
+                    <span><i class="fa-solid fa-circle-check"></i> Premium Finish</span>
+                </div>
+            </div>
+
+            <div class="hero-video-panel">
+                <div class="hero-video-badge">
+                    <strong>24/7</strong>
+                    <span>Quick Response</span>
+                </div>
+
+                <div class="hero-video-controls">
+                    <button type="button" class="video-control-btn" id="videoToggle" aria-label="Pause video">
+                        <i class="fa-solid fa-pause"></i>
+                    </button>
+                    <button type="button" class="video-control-btn" id="muteToggle" aria-label="Unmute video">
+                        <i class="fa-solid fa-volume-xmark"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="wash-intro-section">
+            <div class="wash-intro-media reveal">
+                <div class="wash-intro-image wash-intro-image-main">
+                    <img src="image/medium-shot-woman-cleaning-indoors.jpg" alt="Exterior cleaning professional at work">
+                </div>
+                <div class="wash-intro-image wash-intro-image-small">
+                    <img src="image/c3.jpg" alt="Pressure washing surface close-up">
+                </div>
+                <div class="wash-intro-badge">
+                    <strong>20+</strong>
+                    <span>Years of pressure washing care</span>
+                </div>
+            </div>
+
+            <div class="wash-intro-content reveal">
+                <span class="section-kicker">A LITTLE INTRODUCTION</span>
+                <h2>Welcome To Our Mobile Pressure Washing Center.</h2>
+                <p>
+                    We help homeowners and businesses restore outdoor spaces with modern pressure
+                    washing, careful exterior cleaning, and service that keeps your property looking sharp.
+                </p>
+
+                <div class="wash-intro-info">
+                    <h3>Important Information:</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-circle-check"></i> Professional technicians</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Eco-friendly cleaning methods</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Over 5 years experience</li>
+                    </ul>
+                </div>
+
+                <a href="#" class="btn hero-video-btn">More Services</a>
+            </div>
+        </section>
+
+        <section class="popular-services-section">
+            <div class="section-heading popular-services-heading reveal">
+                <span class="section-kicker">POPULAR SERVICES</span>
+                <h2>Popular Mobile Pressure Washing Services</h2>
+                <div class="popular-services-tags">
+                    <span><i class="fa-solid fa-circle-check"></i> Background checked cleaners</span>
+                    <span><i class="fa-solid fa-circle-check"></i> Fully insured service</span>
+                    <span><i class="fa-solid fa-circle-check"></i> No contracts or commitments</span>
+                </div>
+            </div>
+
+            <div class="popular-services-grid">
+                <article class="popular-service-card popular-service-card-image reveal">
+                    <img src="image/b5.jpg" alt="Window and glass exterior cleaning">
+                    <div class="popular-service-overlay">
+                        <h3>Add On Service</h3>
+                        <p>Glass touch-ups and finishing details that sharpen the full result.</p>
+                        <a href="#" class="popular-service-chip">View More</a>
+                    </div>
+                </article>
+
+                <article class="popular-service-card popular-service-card-light reveal">
+                    <div class="popular-service-icon"><i class="fa-solid fa-house"></i></div>
+                    <h3>Home Cleaning</h3>
+                    <p>Custom exterior washing for siding, paths, and outdoor surfaces around your home.</p>
+                    <a href="#" class="popular-service-arrow" aria-label="View home cleaning">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </article>
+
+                <article class="popular-service-card popular-service-card-image reveal">
+                    <img src="image/a6.jpg" alt="Recurring pressure washing service">
+                    <div class="popular-service-overlay">
+                        <h3>Recurring Cleaning</h3>
+                        <p>Monthly or seasonal maintenance plans to keep dirt and buildup under control.</p>
+                        <a href="#" class="popular-service-chip">View More</a>
+                    </div>
+                </article>
+
+                <article class="popular-service-card popular-service-card-light reveal">
+                    <div class="popular-service-icon"><i class="fa-solid fa-truck-fast"></i></div>
+                    <h3>Move In/Out Cleaning</h3>
+                    <p>Fresh exterior presentation before move-in, move-out, sale, or new tenant handover.</p>
+                    <a href="#" class="popular-service-arrow" aria-label="View move in or out cleaning">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </article>
+
+                <article class="popular-service-card popular-service-card-image reveal">
+                    <img src="image/k.jpg" alt="Pressure washer machine for post construction cleaning">
+                    <div class="popular-service-overlay">
+                        <h3>Post Construction Clean</h3>
+                        <p>Final surface washing to remove dust, debris marks, and build-up after project work.</p>
+                        <a href="#" class="popular-service-chip">View More</a>
+                    </div>
+                </article>
+
+                <article class="popular-service-card popular-service-card-light reveal">
+                    <div class="popular-service-icon"><i class="fa-solid fa-building"></i></div>
+                    <h3>Office Cleaning</h3>
+                    <p>Exterior wash services that help commercial spaces stay cleaner, brighter, and more professional.</p>
+                    <a href="#" class="popular-service-arrow" aria-label="View office cleaning">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <section class="pricing-showcase-section">
+            <div class="pricing-shell">
+                <div class="pricing-header reveal">
+                    <div>
+                        <span class="section-kicker">OFFERS AND DISCOUNTS</span>
+                        <h2>Exterior Cleaning Service Price Lists</h2>
+                    </div>
+                    <a href="#" class="btn hero-video-btn">Get a Quote</a>
+                </div>
+
+                <div class="pricing-card reveal">
+                    <div class="pricing-tabs" role="tablist" aria-label="Pricing categories">
+                        <button class="pricing-tab active" type="button" data-price-tab="home" aria-selected="true">
+                            <i class="fa-solid fa-house"></i>
+                            <span>Home Cleaning</span>
+                        </button>
+                        <button class="pricing-tab" type="button" data-price-tab="office" aria-selected="false">
+                            <i class="fa-solid fa-building"></i>
+                            <span>Office Cleaning</span>
+                        </button>
+                        <button class="pricing-tab" type="button" data-price-tab="addons" aria-selected="false">
+                            <i class="fa-solid fa-sparkles"></i>
+                            <span>Add-On Services</span>
+                        </button>
+                    </div>
+
+                    <div class="pricing-panels">
+                        <div class="pricing-panel active" data-price-panel="home">
+                            <div class="price-row">
+                                <h3>Standard Cleaning</h3>
+                                <p><i class="fa-solid fa-check"></i> Driveway, walkway, patio, and entry wash</p>
+                                <strong>$90</strong>
+                                <span>(up to 2 bed / 1 bath)</span>
+                            </div>
+                            <div class="price-row">
+                                <h3>Deep Cleaning</h3>
+                                <p><i class="fa-solid fa-check"></i> Includes siding, concrete stain lift, and trim rinse</p>
+                                <strong>$160</strong>
+                                <span>(up to 2 bed / 1 bath)</span>
+                            </div>
+                            <div class="price-row">
+                                <h3>Move In/Out Cleaning</h3>
+                                <p><i class="fa-solid fa-check"></i> Fresh wash before move-in, sale, or tenant turnover</p>
+                                <strong>$180 - $250</strong>
+                                <span>Full exterior package</span>
+                            </div>
+                            <div class="price-row">
+                                <h3>Post Construction Cleaning</h3>
+                                <p><i class="fa-solid fa-check"></i> Dust, residue, and final exterior detail cleaning</p>
+                                <strong>$200 - $300</strong>
+                                <span>By job size</span>
+                            </div>
+                        </div>
+
+                        <div class="pricing-panel" data-price-panel="office">
+                            <div class="price-row">
+                                <h3>Office Exterior Wash</h3>
+                                <p><i class="fa-solid fa-check"></i> Entryways, storefront glass surrounds, and front paths</p>
+                                <strong>$140</strong>
+                                <span>Starter commercial clean</span>
+                            </div>
+                            <div class="price-row">
+                                <h3>Routine Maintenance</h3>
+                                <p><i class="fa-solid fa-check"></i> Scheduled washing for high-traffic business spaces</p>
+                                <strong>$220</strong>
+                                <span>Bi-weekly or monthly</span>
+                            </div>
+                            <div class="price-row">
+                                <h3>Deep Business Refresh</h3>
+                                <p><i class="fa-solid fa-check"></i> Walls, concrete, loading areas, and facade cleaning</p>
+                                <strong>$320 - $480</strong>
+                                <span>Based on square footage</span>
+                            </div>
+                        </div>
+
+                        <div class="pricing-panel" data-price-panel="addons">
+                            <div class="price-row">
+                                <h3>Window Surround Detailing</h3>
+                                <p><i class="fa-solid fa-check"></i> Finish work around frames, ledges, and trim</p>
+                                <strong>$40</strong>
+                                <span>Added to any package</span>
+                            </div>
+                            <div class="price-row">
+                                <h3>Fence & Gate Wash</h3>
+                                <p><i class="fa-solid fa-check"></i> Light restoration for outdoor fence lines and gates</p>
+                                <strong>$65</strong>
+                                <span>Per side section</span>
+                            </div>
+                            <div class="price-row">
+                                <h3>Deck Brightening</h3>
+                                <p><i class="fa-solid fa-check"></i> Extra wood-safe wash for decks and stairs</p>
+                                <strong>$85</strong>
+                                <span>Small to medium deck</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing-offers">
+                    <article class="pricing-offer pricing-offer-primary">
+                        <div>
+                            <strong>80%</strong>
+                            <h3>Clients Rebook Monthly</h3>
+                            <p><i class="fa-solid fa-circle-check"></i> Book online, by phone, or through social media.</p>
+                        </div>
+                        <img src="image/rt.png" alt="Cleaning glove">
+                        <a href="#" class="pricing-offer-arrow" aria-label="View monthly rebooking offer">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </article>
+
+                    <article class="pricing-offer pricing-offer-secondary">
+                        <strong>10%</strong>
+                        <h3>Off Bi-Weekly Visits</h3>
+                        <p><i class="fa-solid fa-circle-check"></i> Recurring client discount available.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="why-section">
+            <div class="why-copy reveal">
+                <span class="section-kicker">WHY CHOOSE US</span>
+                <h2>Cleaning You Can Count On, Without the Fuss.</h2>
+                <p>
+                    HydroRush makes exterior cleaning simple with reliable scheduling, clear pricing,
+                    and a team that treats every property with care and attention to detail.
+                </p>
+
+                <ul class="why-list">
+                    <li><i class="fa-solid fa-circle-check"></i> Background checked technicians</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Fast and flexible booking slots</li>
+                    <li><i class="fa-solid fa-circle-check"></i> No contracts or hidden commitments</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Recurring service options available</li>
+                </ul>
+
+                <div class="why-actions">
+                    <a href="#" class="btn hero-video-btn">Book Online</a>
+                    <a href="#" class="why-phone"><i class="fa-solid fa-phone"></i> 844 242 9464</a>
+                </div>
+            </div>
+
+            <div class="why-grid">
+                <article class="why-card why-card-image reveal">
+                    <img src="image/i.jpg" alt="HydroRush team member">
+                </article>
+
+                <article class="why-card why-card-theme reveal">
+                    <i class="fa-solid fa-shield-heart"></i>
+                    <h3>Trusted Company</h3>
+                    <p>We pride ourselves on dependable arrival times, careful work, and consistently polished results.</p>
+                </article>
+
+                <article class="why-card why-card-accent reveal">
+                    <i class="fa-solid fa-trophy"></i>
+                    <h3>Professional Service</h3>
+                    <p>Every clean is handled thoroughly, personally, and backed by friendly support from start to finish.</p>
+                </article>
+
+                <article class="why-card why-card-image reveal">
+                    <img src="image/b5.jpg" alt="Detailed surface cleaning">
+                </article>
+            </div>
+        </section>
+
+        <section class="booking-process-section">
+            <div class="section-heading booking-heading reveal">
+                <span class="section-kicker">BOOK IN 60 SECONDS</span>
+                <h2>Quick & Easy Booking Process</h2>
+            </div>
+
+            <div class="booking-steps">
+                <article class="booking-step reveal">
+                    <div class="booking-step-icon"><i class="fa-regular fa-calendar-check"></i></div>
+                    <h3>Book Consultations</h3>
+                    <p>Tell us what needs cleaning and choose the service date and time that fits your schedule.</p>
+                </article>
+
+                <article class="booking-step reveal">
+                    <div class="booking-step-icon"><i class="fa-solid fa-list-check"></i></div>
+                    <h3>Choose Package</h3>
+                    <p>Select the best washing option for your driveway, patio, siding, roof, or full exterior refresh.</p>
+                </article>
+
+                <article class="booking-step reveal">
+                    <div class="booking-step-icon"><i class="fa-solid fa-spray-can-sparkles"></i></div>
+                    <h3>We Clean, You Relax</h3>
+                    <p>Our team arrives ready to wash, restore, and leave your property looking noticeably sharper.</p>
+                </article>
+            </div>
+
+            <div class="booking-cta">
+                <a href="#" class="btn hero-video-btn">Get Started</a>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="contact-booking-card">
+                <div class="contact-form-side">
+                    <span class="section-kicker">GET IN TOUCH</span>
+                    <h2>Book Your Clean Today</h2>
+
+                    <form class="contact-clean-form">
+                        <div class="contact-form-grid">
+                            <input type="text" placeholder="First Name*">
+                            <input type="text" placeholder="Last Name*">
+                            <input type="email" placeholder="Your Email*">
+                            <input type="tel" placeholder="Phone Number*">
+                            <select>
+                                <option>Type of service</option>
+                                <option>Pressure Washing</option>
+                                <option>Exterior Cleaning</option>
+                                <option>Roof Cleaning</option>
+                            </select>
+                            <select>
+                                <option>Property size</option>
+                                <option>Small</option>
+                                <option>Medium</option>
+                                <option>Large</option>
+                            </select>
+                        </div>
+                        <textarea rows="5" placeholder="Type your message"></textarea>
+                        <button type="submit" class="contact-submit-btn">Send</button>
+                    </form>
+                </div>
+
+                <div class="contact-image-side">
+                    <img src="image/p1.jpg" alt="Clean property interior">
+                    <div class="contact-cleaners-badge">
+                        <i class="fa-solid fa-square-check"></i>
+                        <div>
+                            <strong>20+</strong>
+                            <span>Certified Cleaners</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="testimonials-section">
+            <div class="section-heading testimonials-heading reveal">
+                <span class="section-kicker">TESTIMONIALS</span>
+                <h2>We are Very Glad to Get Client Review.</h2>
+            </div>
+
+            <div class="testimonial-slider reveal">
+                <button class="testimonial-nav testimonial-prev" type="button" aria-label="Previous testimonial">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+
+                <div class="testimonial-track-wrap">
+                    <div class="testimonial-track">
+                        <article class="testimonial-slide active">
+                            <div class="testimonial-avatar-wrap">
+                                <img src="image/t.jpg" alt="Customer portrait" class="testimonial-avatar">
+                                <span class="testimonial-quote"><i class="fa-solid fa-quote-right"></i></span>
+                            </div>
+                            <p class="testimonial-text">
+                                HydroRush completely transformed our driveway and front path. The team arrived on time,
+                                worked efficiently, and the final result looked brighter than we expected.
+                            </p>
+                            <div class="testimonial-stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <h3>Amber Reed</h3>
+                            <span>Denver Homeowner</span>
+                        </article>
+
+                        <article class="testimonial-slide">
+                            <div class="testimonial-avatar-wrap">
+                                <img src="image/o.jpg" alt="Customer portrait" class="testimonial-avatar">
+                                <span class="testimonial-quote"><i class="fa-solid fa-quote-right"></i></span>
+                            </div>
+                            <p class="testimonial-text">
+                                Booking was simple, communication was clear, and HydroRush made our patio and siding
+                                look fresh again before our family event.
+                            </p>
+                            <div class="testimonial-stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <h3>Michael Torres</h3>
+                            <span>Property Manager</span>
+                        </article>
+
+                        <article class="testimonial-slide">
+                            <div class="testimonial-avatar-wrap">
+                                <img src="image/c.jpg" alt="Customer portrait" class="testimonial-avatar">
+                                <span class="testimonial-quote"><i class="fa-solid fa-quote-right"></i></span>
+                            </div>
+                            <p class="testimonial-text">
+                                Our recurring service has been excellent. The team is punctual, professional, and always
+                                leaves the exterior looking polished and well cared for.
+                            </p>
+                            <div class="testimonial-stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <h3>Sophia Carter</h3>
+                            <span>Business Owner</span>
+                        </article>
+                    </div>
+                </div>
+
+                <button class="testimonial-nav testimonial-next" type="button" aria-label="Next testimonial">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+
+            <div class="testimonial-dots">
+                <button class="testimonial-dot active" type="button" aria-label="Go to testimonial 1"></button>
+                <button class="testimonial-dot" type="button" aria-label="Go to testimonial 2"></button>
+                <button class="testimonial-dot" type="button" aria-label="Go to testimonial 3"></button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-shell">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <a href="#" class="footer-logo">
+                        <img src="image/logo.png" alt="HydroRush logo">
+                    </a>
+
+                    <p>
+                        HydroRush delivers premium pressure washing and exterior cleaning with
+                        dependable service, brighter finishes, and a smooth customer experience.
+                    </p>
+
+                    <div class="footer-socials">
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Pressure Washing</a></li>
+                        <li><a href="#">Driveway Cleaning</a></li>
+                        <li><a href="#">Roof Cleaning</a></li>
+                        <li><a href="#">Patio Restoration</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Info</h3>
+                    <ul>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Free Estimate</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column footer-contact" id="footerContact">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-phone"></i><span>844 242 9464</span></li>
+                        <li><i class="fa-regular fa-envelope"></i><span>contact@hydrorush.com</span></li>
+                        <li><i class="fa-solid fa-location-dot"></i><span>2590 Walnut St, Denver, CO 80205</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 HydroRush. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookies Settings</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <button type="button" class="scroll-top-btn" id="scrollTopBtn" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <script src="jss/main.js"></script>
+</body>
+</html>

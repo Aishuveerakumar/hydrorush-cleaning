@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HydroRush Login</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <link rel="icon" href="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+    <main class="login-page-main">
+        <section class="login-hero-section">
+            <div class="login-shell">
+                <div class="login-card">
+                    <div class="login-card-top">
+                        <a href="index.html" class="login-brand">
+                            <img src="image/logo.png" alt="HydroRush logo">
+                        </a>
+                        <h2>Login</h2>
+                    </div>
+
+                    <form class="login-form" action="#" method="post">
+                        <label class="login-field">
+                            <input type="email" placeholder="Email Address" required>
+                        </label>
+
+                        <label class="login-field login-field-password">
+                            <div class="login-password-wrap">
+                                <input type="password" placeholder="Password" required data-password-field>
+                                <button type="button" class="password-toggle" aria-label="Show password" data-password-toggle>
+                                    <i class="fa-regular fa-eye"></i>
+                                </button>
+                            </div>
+                        </label>
+
+                        <div class="login-form-meta">
+                            <label class="login-check">
+                                <input type="checkbox">
+                                <span>Remember Me</span>
+                            </label>
+                            <a href="#" class="login-link">Forgot Password?</a>
+                        </div>
+
+                        <button type="submit" class="login-submit">Login</button>
+                    </form>
+
+                    <div class="login-divider">
+                        <span>Or sign up using</span>
+                    </div>
+
+                    <div class="login-socials">
+                        <a href="#" class="login-social login-social-facebook" aria-label="Login with Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="login-social login-social-google" aria-label="Login with Google"><i class="fa-brands fa-google"></i></a>
+                        <a href="#" class="login-social login-social-x" aria-label="Login with X"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" class="login-social login-social-apple" aria-label="Login with Apple"><i class="fa-brands fa-apple"></i></a>
+                    </div>
+
+                    <p class="login-register-note">
+                        Don't have an account?
+                        <a href="register.html" class="login-link">Register</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <button type="button" class="scroll-top-btn" id="scrollTopBtn" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <script src="jss/main.js"></script>
+</body>
+</html>
